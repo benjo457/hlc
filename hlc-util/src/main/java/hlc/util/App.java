@@ -1,7 +1,7 @@
 package hlc.util;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Hello world!
@@ -9,10 +9,9 @@ import org.slf4j.LoggerFactory;
  */
 public class App 
 {
-    private static final Logger LOG = LoggerFactory.getLogger(App.class);
+    private static final Logger logger = LogManager.getLogger(App.class);
 
     public static void main( String[] args ) {
-        LOG.info("HLCv2");
-        System.out.println( "Hello World!" );
+        logger.info("HLC system version XXX");
     }
 }
