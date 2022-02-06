@@ -7,7 +7,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>hlc-parent</name>
-    <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -68,7 +67,7 @@
         </pluginManagement>
     </build>
     <modules>
-        <module>hlc2-util</module>
+        <module>hlc-util</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -84,7 +83,7 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
-                <artifactId>log4j-slf4j-impl</artifactId>
+                <artifactId>log4j-slf4j18-impl</artifactId>
                 <version>2.17.1</version>
             </dependency>
             <dependency>
