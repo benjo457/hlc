@@ -11,7 +11,6 @@
     <artifactId>hlc-util</artifactId>
 
     <name>hlc-util</name>
-    <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
     <properties>
@@ -43,6 +42,9 @@
                         <manifest>
                             <mainClass>hlc.util.App</mainClass>
                         </manifest>
+                        <manifestEntries>
+                            <Multi-Release>true</Multi-Release>
+                        </manifestEntries>
                     </archive>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
@@ -87,7 +89,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-slf4j-impl</artifactId>
+            <artifactId>log4j-slf4j18-impl</artifactId>
         </dependency>
     </dependencies>
 
